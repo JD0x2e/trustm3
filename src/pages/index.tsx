@@ -63,7 +63,7 @@ import { useState } from "react";
           type:1
         }  ,
         ])
-//
+        
     if (!user?.isLoggedIn) {
       return (
         <div style={{backgroundImage:`url(${bgWelcome.src})`}} className="max-w-screen-md px-6 pt-24 mx-auto h-screen">
