@@ -26,7 +26,7 @@ export const paywallConfig: Record<string, unknown> = {
       id: 5
     }
 
-    
+    //
   },
   pessimistic: false,
   title: "TrustM3",
