@@ -72,9 +72,9 @@ import { useState } from "react";
            <h1 className="welcome-text">Welcome to TrustM3,</h1>
           <p className="welcome-text2">Verification on demand.</p>
         </div>
-          <Link href="https://trustm3.vercel.app/api/login" className="blur-card">
+          <Link href="/api/login" className="blur-card">
           </Link>
-          <Link href="https://trustm3.vercel.app/api/login" className="connect-cv-header">Connect Wallet</Link>
+          <Link href="/api/login" className="connect-cv-header">Connect Wallet</Link>
         </div>
       );
     }
