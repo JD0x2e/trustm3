@@ -30,6 +30,6 @@ export const paywallConfig: Record<string, unknown> = {
   },
   pessimistic: false,
   title: "TrustM3",
-  icon: "https://i.ibb.co/THD61hS/trustm3logo.png",
+  icon: "https://i.ibb.co/7Yx0kTb/logo-trustm3-03.png",
   persistentCheckout: false,
 };
