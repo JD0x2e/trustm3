@@ -69,7 +69,7 @@ import { useState } from "react";
 
     if (!user?.isLoggedIn) {
       return (
-        <div style={{backgroundImage:`url(${bgDesktop.src})`}} className="">
+        <div style={{backgroundImage:`url(${bgWelcome.src})`}} className="max-w-screen-md px-6 pt-24 mx-auto h-screen">
           <img className="logo" src={logo.src}></img>
           <div className="welcome-text-container">
            <h1 className="welcome-text">Welcome to TrustM3,</h1>
