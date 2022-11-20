@@ -5,6 +5,8 @@ import { useUser } from "~/hooks/useUser";
 import { MembershipMetadata } from "~/types";
 import bgWelcome from '../assets/bg-welcome.png';
 import bgProfile from '../assets/bg-profile.png';
+import bgTablet from "../assets/bg-tablet.png"
+import bgDesktop from '../assets/bg-desktop.png'
 import logo from '../assets/white-logo.png';
 import rightArrow from '../assets/right-arrow.png';
 import Akcela from '../assets/akcela.jpeg'
@@ -63,10 +65,11 @@ import { useState } from "react";
           type:1
         }  ,
         ])
-        
+        // max-w-screen-md px-6 pt-24 mx-auto h-screen
+
     if (!user?.isLoggedIn) {
       return (
-        <div style={{backgroundImage:`url(${bgWelcome.src})`}} className="max-w-screen-md px-6 pt-24 mx-auto h-screen">
+        <div style={{backgroundImage:`url(${bgDesktop.src})`}} className="">
           <img className="logo" src={logo.src}></img>
           <div className="welcome-text-container">
            <h1 className="welcome-text">Welcome to TrustM3,</h1>
