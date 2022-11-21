@@ -1,4 +1,4 @@
-# TrustM3 - Using untamperable blockchain technology which allows the employer to validate employees, experience & skills.
+# TrustM3 - Using non-tamperable blockchain technology which allows the employer to validate employees, experience & skills.
 
 **Winning project of Sync the City 2022**
 
